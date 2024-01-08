@@ -1,9 +1,11 @@
 <div class="header__logo">
   <nav class="header__nav">
     <ul class="header__menu" [class.active]="showBurgerMenu">
-      <li *ngFor="let link of links">
+      @for(link of links; track link){
+      <li>
         <a class="header__link" [href]="link.url">{{ link.label }}</a>
       </li>
+      }
     </ul>
   </nav>
 

@@ -9,13 +9,14 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./navigation.component.css'],
 })
 export class NavigationComponent {
-  links: { label: string; url: string }[] = [
-    { label: 'Сервіси', url: '#' },
-    { label: 'Послуги', url: '#' },
-    { label: 'Клієнти', url: '#' },
-    { label: 'Новини', url: '#' },
-    { label: 'Про нас', url: '#' },
-  ];
+    links: { label: string; url: string }[] = [
+      { label: 'Сервіси', url: '#' },
+      { label: 'Послуги', url: '#' },
+      { label: 'Клієнти', url: '#' },
+      { label: 'Новини', url: '#' },
+      { label: 'Про нас', url: '#' },
+    ];
+
 
   icons: { iconSrc: string; url: string }[] = [
     { iconSrc: '../assets/images/icons.svg#icon-linkedin', url: '#' },

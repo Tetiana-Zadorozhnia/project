@@ -1,22 +1,26 @@
 <div class="header__menu-container">
   <nav class="header__nav">
     <ul class="header__menu" [class.active]="showBurgerMenu">
-      <li *ngFor="let link of links">
+      @for(link of links; track link){
+      <li>
         <a class="header__link" [href]="link.url">{{ link.label }}</a>
       </li>
+      }
     </ul>
   </nav>
 
   <div class="header__social-account">
     <div class="header__social-icons">
       <ul class="header__icons-list">
-        <li *ngFor="let icon of icons">
+        @for(icon of icons; track icon){
+        <li>
           <a class="header__icons-link" [href]="icon.url">
             <svg width="40" height="40">
               <use [attr.href]="icon.iconSrc"></use>
             </svg>
           </a>
         </li>
+        }
       </ul>
     </div>
 
