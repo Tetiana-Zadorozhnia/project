@@ -3,7 +3,12 @@
     <ul class="header__menu" [class.active]="showBurgerMenu">
       @for(link of links; track link){
       <li>
-        <a class="header__link" [href]="link.url">{{ link.label }}</a>
+        <a
+          class="header__link"
+          [routerLink]="link.url"
+          routerLinkActive="active"
+          >{{ link.label }}</a
+        >
       </li>
       }
     </ul>
@@ -14,7 +19,11 @@
       <ul class="header__icons-list">
         @for(icon of icons; track icon){
         <li>
-          <a class="header__icons-link" [href]="icon.url">
+          <a
+            class="header__icons-link"
+            [routerLink]="icon.url"
+            routerLinkActive="active"
+          >
             <svg width="40" height="40">
               <use [attr.href]="icon.iconSrc"></use>
             </svg>
@@ -25,16 +34,18 @@
     </div>
 
     <div class="header__account">
-      <a class="header__user-link" [href]="account.url">
+      <a class="header__user-link" [routerLink]="account.url">
         <img
-          [src]="account.accountSrc"
+          [attr.src]="account.accountSrc"
           width="33.81"
           height="35.15"
           alt="Account"
         />
       </a>
 
-      <a class="header__user-login" [href]="login.url">{{ login.label }}</a>
+      <a class="header__user-login" [routerLink]="login.url">
+        {{ login.label }}
+      </a>
     </div>
   </div>
 </div>

@@ -3,13 +3,13 @@
 
   <div class="footer__contacts">
     <ul class="footer__list">
-		@for(contact of contacts; track contact){
-			<li>
-				<a class="footer__link" [href]="contact.link" target="_blank">
-				{{contact.text }}
-		  </a>
-		</li>
-		}
+      @for(contact of contacts; track contact){
+      <li>
+        <a class="footer__link" [href]="contact.link" target="_blank">
+          {{ contact.text }}
+        </a>
+      </li>
+      }
     </ul>
   </div>
 </address>

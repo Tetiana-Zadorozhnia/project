@@ -13,10 +13,9 @@ import { FooterLogoComponent } from './footer-logo/footer-logo.component';
     FooterAddressComponent,
     FooterIconsComponent,
     FooterLogoComponent,
-	],
-	template: `footer`,
-   templateUrl: './footer.component.html',
-	styleUrls: ['./footer.component.css'],
-
+  ],
+  template: `footer`,
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css'],
 })
 export class FooterComponent {}

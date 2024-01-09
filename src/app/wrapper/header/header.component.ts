@@ -13,8 +13,8 @@ import { DemoButtonComponent } from './demo-button/demo-button.component';
     LogoComponent,
     NavigationComponent,
     DemoButtonComponent,
-	],
-  template:`header`,
+  ],
+  template: `header`,
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
 })

@@ -3,7 +3,12 @@
     <ul class="header__menu" [class.active]="showBurgerMenu">
       @for(link of links; track link){
       <li>
-        <a class="header__link" [href]="link.url">{{ link.label }}</a>
+        <a
+          class="header__link"
+          [routerLink]="link.url"
+          routerLinkActive="active"
+          >{{ link.label }}
+        </a>
       </li>
       }
     </ul>
@@ -20,6 +25,6 @@
   </button>
 
   <a class="header__logo-text" href="/">
-    <img [src]="logoUrl" alt="Logo" />
+    <img [attr.src]="logoUrl" alt="Logo" />
   </a>
 </div>

@@ -5,13 +5,12 @@
 
   <p class="subtitle-section__violet-block">{{ violetBlock.text }}</p>
 
-  <p
-    class="title-section__paragraph"
-    *ngFor="let accent of blackAccent; let i = index"
-  >
-    <span class="subtitle-section__black-accent">{{ accent.text }} </span
-    >{{ dynamicTexts[i].text }}
+  @for(accent of blackAccent; track accent){
+  <p class="title-section__paragraph">
+    <span class="subtitle-section__black-accent">{{ accent.text }}</span
+    >{{ accent.dynamicText.text }}
   </p>
+  }
 
   <h2 class="subtitle-section__title">{{ subTitle2.label }}</h2>
 

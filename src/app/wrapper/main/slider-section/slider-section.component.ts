@@ -9,7 +9,6 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./slider-section.component.css'],
 })
 export class SliderSectionComponent {
-  i: number = 0;
   images: { src: string; alt: string }[] = [
     { src: './assets/images/photo_slide_1.jpg', alt: 'Slide1' },
     { src: './assets/images/photo_slide_2.jpg', alt: 'Slide2' },

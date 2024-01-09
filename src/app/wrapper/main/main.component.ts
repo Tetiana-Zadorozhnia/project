@@ -19,10 +19,9 @@ import { ListSectionComponent } from './list-section/list-section.component';
     SliderSectionComponent,
     QuotesSectionComponent,
     ListSectionComponent,
-	],
-	template: `main`,
+  ],
+  template: `main`,
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css'],
-  
 })
 export class MainComponent {}

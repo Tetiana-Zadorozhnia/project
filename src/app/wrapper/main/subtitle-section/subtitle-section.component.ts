@@ -19,19 +19,21 @@ export class SubtitleSectionComponent {
     text: 'Non blandit massa enim nec. Eleifend donec pretium vulputatesapien nec sagittis aliquam malesuada bibendum. Nibh ipsum consequat nisl vel pretium lectus quam id.',
   };
 
-  blackAccent: { text: string }[] = [
-    { text: 'Виділення в тексті' },
-    { text: 'Виділення в тексті' },
+  blackAccent: { text: string; dynamicText: { text: string } }[] = [
+    {
+      text: 'Виділення в тексті',
+      dynamicText: {
+        text: ' ullamcorper a lacus vestibulum sed. Netus et malesuada fames acturpis egestas sed tempus urna. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Vel fringilla est ullamcorper egetnulla facilisi. Arcu odio ut sem nulla pharetra diam sit amet nisl. Bibendum est ultricies integer quis auctor elit sed vulputate mi.',
+      },
+    },
+    {
+      text: 'Виділення в тексті',
+      dynamicText: {
+        text: ' ullamcorper a lacus vestibulum sed. Netus et malesuada fames acturpis egestas sed tempus urna. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Vel fringilla est ullamcorper egetnulla facilisi. Arcu odio ut sem nulla pharetra diam sit amet nisl. Bibendum est ultricies integer quis auctor elit sed vulputate mi.',
+      },
+    },
   ];
 
-  dynamicTexts: { text: string }[] = [
-    {
-      text: 'ullamcorper a lacus vestibulum sed. Netus et malesuada fames acturpis egestas sed tempus urna. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Vel fringilla est ullamcorper egetnulla facilisi. Arcu odio ut sem nulla pharetra diam sit amet nisl. Bibendum est ultricies integer quis auctor elit sed vulputate mi.',
-    },
-    {
-      text: 'ullamcorper a lacus vestibulum sed. Netus et malesuada fames acturpis egestas sed tempus urna. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Vel fringilla est ullamcorper egetnulla facilisi. Arcu odio ut sem nulla pharetra diam sit amet nisl. Bibendum est ultricies integer quis auctor elit sed vulputate mi.',
-    },
-  ];
   subTitle2: { label: string } = { label: 'Підзаголовок' };
 
   dynamicParagraph: { text: string } = {
