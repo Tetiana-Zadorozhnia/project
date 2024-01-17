@@ -1,0 +1,19 @@
+{
+  "routes": [
+    "/",
+    "/about-us",
+    "/clients",
+    "/demo-version",
+    "/facebook",
+    "/footer",
+    "/header",
+    "/instagram",
+    "/linked-in",
+    "/main",
+    "/news",
+    "/products",
+    "/services",
+    "/user-link",
+    "/user-login"
+  ]
+}
