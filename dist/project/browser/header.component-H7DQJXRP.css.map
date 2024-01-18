@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/wrapper/header/header.component.css"],
+  "sourcesContent": [".header {\r\n  width: 100%;\r\n  max-width: 96rem;\r\n}\r\n\r\n.header__container {\r\n  width: 100%;\r\n  padding: 1.7778rem 5.3333rem 3.7778rem 5.3333rem;\r\n  margin: 0 auto;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n@media screen and (max-width: 1280px) {\r\n  .header__container {\r\n    width: 100%;\r\n    padding: 1rem 3rem;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: center;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n  .header__container {\r\n    width: 100%;\r\n    padding: 1rem 7rem;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 570px) {\r\n  .header__container {\r\n    width: 100%;\r\n    margin: 0 auto;\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,OACC,MAAO,KACP,UAAW,KACb,CAEA,CAAC,kBACC,MAAO,KANT,QAOW,UAAU,UAAU,UAP/B,OAQU,EAAE,KACV,QAAS,KACT,gBAAiB,OACjB,YAAa,MACf,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,QAC5B,CAVD,kBAWG,MAAO,KAhBX,QAiBa,KAAK,KAjBlB,OAkBY,EAAE,KACV,QAAS,KACT,gBAAiB,MACnB,CACF,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC5B,CApBD,kBAqBG,MAAO,KA1BX,QA2Ba,KAAK,KA3BlB,OA4BY,EAAE,KACV,QAAS,KACT,eAAgB,MAClB,CACF,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC5B,CA9BD,kBA+BG,MAAO,KApCX,OAqCY,EAAE,IACZ,CACF",
+  "names": []
+}
