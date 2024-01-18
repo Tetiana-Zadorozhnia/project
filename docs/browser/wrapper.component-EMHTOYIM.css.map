@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/wrapper/wrapper.component.css"],
+  "sourcesContent": [".wrapper {\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\talign-items: center;\r\n\tjustify-content: space-between;\r\n\twidth: 100%;\r\n\tflex: 1;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,QACA,QAAS,KACT,eAAgB,OAChB,YAAa,OACb,gBAAiB,cACjB,MAAO,KACP,KAAM,CACP",
+  "names": []
+}

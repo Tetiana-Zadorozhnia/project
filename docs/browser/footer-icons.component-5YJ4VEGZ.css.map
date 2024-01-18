@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/wrapper/footer/footer-icons/footer-icons.component.css"],
+  "sourcesContent": [".footer__icons-list {\r\n\tdisplay: flex;\r\n\tpadding: 8.7222rem 46.0556rem 2.7222rem 0;\r\n\tlist-style: none;\r\n}\r\n\r\n.footer__icons-link {\r\n\tpadding-left: 0.7778rem;\r\n\tlist-style: none;\r\n}\r\n\r\n@media screen and (max-width: 1024px) {\r\n\t.footer__icons-list {\r\n\t\tmargin-left: -5rem;\r\n\t}\r\n}\r\n\r\n@media screen and (max-width: 995px) {\r\n\t.footer__icons-list {\r\n\t\tmargin-left: -6rem;\r\n\t}\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n\t.footer__icons-list {\r\n\t\tmargin-left: -5rem;\r\n\t}\r\n}\r\n\r\n@media screen and (max-width: 425px) {\r\n\t.footer__icons-list {\r\n\t\tmargin-top: -10.5rem;\r\n\t\tmargin-left: -7rem;\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: column;\r\n\t}\r\n}\r\n\r\n@media screen and (max-width: 320px) {\r\n\t.footer__icons-list {\r\n\t\tmargin-left: -7.5rem;\r\n\t}\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,mBACA,QAAS,KADV,QAEU,UAAU,WAAW,UAAU,EACxC,WAAY,IACb,CAEA,CAAC,mBACA,aAAc,SACd,WAAY,IACb,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,QAC7B,CAZA,mBAaC,YAAa,KACd,CACD,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC7B,CAlBA,mBAmBC,YAAa,KACd,CACD,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC7B,CAxBA,mBAyBC,YAAa,KACd,CACD,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC7B,CA9BA,mBA+BC,WAAY,SACZ,YAAa,MACb,QAAS,KACT,eAAgB,MACjB,CACD,CAEA,OAAO,OAAO,IAAI,CAAC,SAAS,EAAE,OAC7B,CAvCA,mBAwCC,YAAa,OACd,CACD",
+  "names": []
+}

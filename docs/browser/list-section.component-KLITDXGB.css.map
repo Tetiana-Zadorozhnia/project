@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/wrapper/main/list-section/list-section.component.css"],
+  "sourcesContent": [".subtitle-section__list {\r\n  margin-bottom: 8.4444rem;\r\n}\r\n\r\n.subtitle-section__list .subtitle-section-item {\r\n  background-size: 0.4444rem 0.4444rem;\r\n  background-repeat: no-repeat;\r\n  padding-left: 1.1111rem;\r\n  background-position: 0.0556rem 0.5556rem;\r\n  list-style: none;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,uBACC,cAAe,SACjB,CAEA,CAJC,uBAIuB,CAAC,sBACvB,gBAAiB,SAAU,SAC3B,kBAAmB,UACnB,aAAc,UACd,oBAAqB,SAAU,SAC/B,WAAY,IACd",
+  "names": []
+}
