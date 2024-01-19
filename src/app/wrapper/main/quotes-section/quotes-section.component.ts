@@ -22,7 +22,7 @@ export class QuotesSectionComponent {
     { text: 'Tellus orci ac auctor augue mauris', url: '#' },
   ];
 
-  quotes: string = '../assets/images/quote.svg';
+  quotes: string = '../../assets/images/quote.svg';
 
   blackBlock: { text: string } = {
     text: 'Non blandit massa enim nec. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Nibh ipsum consequat nisl vel pretium lectus quam id.',

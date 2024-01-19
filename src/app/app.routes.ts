@@ -19,7 +19,6 @@ import { InstagramComponent } from './wrapper/header/navigation/instagram/instag
 import { UserLinkComponent } from './wrapper/header/navigation/user-link/user-link.component';
 import { UserLoginComponent } from './wrapper/header/navigation/user-login/user-login.component';
 
-import { DemoVersionComponent } from './wrapper/header/demo-button/demo-version/demo-version.component';
 
 export const routes: Routes = [
   { path: '', component: WrapperComponent, pathMatch: 'full' },
@@ -39,6 +38,4 @@ export const routes: Routes = [
 
   { path: 'user-link', component: UserLinkComponent },
   { path: 'user-login', component: UserLoginComponent },
-
-  { path: 'demo-version', component: DemoVersionComponent },
 ];

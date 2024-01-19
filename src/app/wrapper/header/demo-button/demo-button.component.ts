@@ -16,7 +16,7 @@ export class DemoButtonComponent {
   };
 
   eyes: { eyesSrc: string; url: string } = {
-    eyesSrc: '../assets/images/eyes.svg',
+    eyesSrc: "../../assets/images/eyes.svg",
     url: '#',
   };
 }
