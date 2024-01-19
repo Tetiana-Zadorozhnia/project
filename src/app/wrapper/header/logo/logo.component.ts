@@ -16,8 +16,8 @@ export class LogoComponent {
     this.showBurgerMenu = !this.showBurgerMenu;
   }
 
-  burgerPath: string = '../../assets/images/icons.svg#icon-burger';
-  logoUrl: string = '../../assets/images/logo.svg';
+  burgerPath: string = 'assets/images/icons.svg#icon-burger';
+  logoUrl: string = 'assets/images/logo.svg';
 
   links: { label: string; url: string }[] = [
     { label: 'Сервіси', url: '/services' },

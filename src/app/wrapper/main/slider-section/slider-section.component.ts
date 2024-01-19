@@ -10,16 +10,16 @@ import { CommonModule } from '@angular/common';
 })
 export class SliderSectionComponent {
   images: { src: string; alt: string }[] = [
-    { src: './assets/images/photo_slide_1.jpg', alt: 'Slide1' },
-    { src: './assets/images/photo_slide_2.jpg', alt: 'Slide2' },
-    { src: './assets/images/photo_slide_3.jpg', alt: 'Slide3' },
+    { src: 'assets/images/photo_slide_1.jpg', alt: 'Slide1' },
+    { src: 'assets/images/photo_slide_2.jpg', alt: 'Slide2' },
+    { src: 'assets/images/photo_slide_3.jpg', alt: 'Slide3' },
   ];
 
   showSlider = true;
 
   currentIndex = 0;
-  prevArrowIconPath: string = './assets/images/icons.svg#icon-arrows_prev';
-  nextArrowIconPath: string = './assets/images/icons.svg#icon-arrows_next';
+  prevArrowIconPath: string = 'assets/images/icons.svg#icon-arrows_prev';
+  nextArrowIconPath: string = 'assets/images/icons.svg#icon-arrows_next';
 
   isAnimating = false;
 

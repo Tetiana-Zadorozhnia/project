@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './footer-logo.component.css',
 })
 export class FooterLogoComponent {
-  logoUrl: string = '../../assets/images/logo.svg';
+  logoUrl: string = 'assets/images/logo.svg';
 }

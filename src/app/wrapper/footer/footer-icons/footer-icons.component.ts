@@ -11,8 +11,8 @@ import { RouterLink } from '@angular/router';
 })
 export class FooterIconsComponent {
   links = [
-    { linkSrc: '../../assets/images/icons.svg#icon-linkedin', url: '/linked-in' },
-    { linkSrc: '../../assets/images/icons.svg#icon-facebook', url: '/facebook' },
-    { linkSrc: '../../assets/images/icons.svg#icon-instagram', url: '/instagram' },
+    { linkSrc: 'assets/images/icons.svg#icon-linkedin', url: '/linked-in' },
+    { linkSrc: 'assets/images/icons.svg#icon-facebook', url: '/facebook' },
+    { linkSrc: 'assets/images/icons.svg#icon-instagram', url: '/instagram' },
   ];
 }
