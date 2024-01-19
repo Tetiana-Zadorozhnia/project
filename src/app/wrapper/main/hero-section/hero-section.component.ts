@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./hero-section.component.css'],
 })
 export class HeroSectionComponent {
-  balloonSrc: string = '../../assets/images/balloons.jpg';
+//   balloonSrc: string = '../../assets/images/balloons.jpg';
 }
