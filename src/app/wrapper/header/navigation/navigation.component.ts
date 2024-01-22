@@ -21,8 +21,7 @@ export class NavigationComponent {
   icons: { iconSrc: string; url: string }[] = [
     { iconSrc: 'assets/images/icons.svg#icon-linkedin', url: '/linked-in' },
     { iconSrc: 'assets/images/icons.svg#icon-facebook', url: '/facebook' },
-	  {
-		  iconSrc: 'assets/images/icons.svg#icon-instagram', url: ' / instagram' },
+	 { iconSrc: 'assets/images/icons.svg#icon-instagram', url: '/instagram' },
   ];
 
   account: { accountSrc: string; url: string } = {
