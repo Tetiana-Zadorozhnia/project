@@ -5,8 +5,6 @@ import { WrapperComponent } from './wrapper/wrapper.component';
 import { HeaderComponent } from './wrapper/header/header.component';
 import { MainComponent } from './wrapper/main/main.component';
 import { FooterComponent } from './wrapper/footer/footer.component';
-
-import { EmblemLogoComponent } from './wrapper/header/logo/emblem-logo/emblem-logo.component';
  
 import { ServicesComponent } from './wrapper/header/navigation/services/services.component';
 import { ProductsComponent } from './wrapper/header/navigation/products/products.component';
@@ -29,8 +27,6 @@ export const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   { path: 'main', component: MainComponent },
   { path: 'footer', component: FooterComponent },
-
-  { path: 'emblem-logo', component: EmblemLogoComponent },
 
   { path: 'services', component: ServicesComponent },
   { path: 'products', component: ProductsComponent },
