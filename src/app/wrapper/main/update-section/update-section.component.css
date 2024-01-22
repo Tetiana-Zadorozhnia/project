@@ -71,6 +71,11 @@
     align-items: center;
     gap: 0.5rem;
   }
+   .update-section__system .update-section__title{
+font-size: 0.6111rem;
+display: flex;
+flex-wrap: nowrap;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -94,3 +99,8 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 375px) {
+	.update-section__system,
+	 .update-section__date  {
+    margin: 0 auto;
+	}}
