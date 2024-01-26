@@ -8,6 +8,7 @@
 	font-weight: 900;
 	line-height: 1.17;
 	color: #ffd364;
+	font-style: normal;
 }
 
 .footer__list {
@@ -16,7 +17,7 @@
 
 .footer__link {
 	font-size: 0.8889rem;
-	line-height: 1.37;
+	line-height: 1.38;
 	color: #282520;
 	font-style: normal;
 	text-decoration: none;
